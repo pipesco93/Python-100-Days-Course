@@ -8,3 +8,10 @@ with open("my_file.txt", mode="a") as file: #If I don't specify a mode it would 
 
 
     #file.close()   If I use with to open hte file i don't have to close it
+
+with open("../my_file2.txt", mode="a") as file: #opne file in ither folder
+
+    # contents = file.read()
+    # print(contents)
+
+    file.write("\nAfile in other folder")
